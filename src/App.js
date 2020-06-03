@@ -1,9 +1,12 @@
 import React from 'react'
+import HeaderNav from './containers/HeaderNav/HeaderNav'
+import { SideBar } from './containers/SideBar/SideBar'
 
 function App() {
   return (
     <div className="App">
-      hello
+      <HeaderNav />
+      <SideBar />
     </div>
   );
 }
